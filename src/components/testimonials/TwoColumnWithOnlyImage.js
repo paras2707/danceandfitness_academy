@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
-import { ReactComponent as QuotesLeftIcon } from "../../images/quotes-l.svg";
-import { ReactComponent as QuotesRightIcon } from "../../images/quotes-r.svg";
+// import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
+// import { ReactComponent as QuotesLeftIcon } from "../../images/quotes-l.svg";
+// import { ReactComponent as QuotesRightIcon } from "../../images/quotes-r.svg";
 import { ReactComponent as ArrowLeftIcon } from "../../images/arrow-left-2-icon.svg";
 import { ReactComponent as ArrowRightIcon } from "../../images/arrow-right-2-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-4.svg";
@@ -15,31 +15,31 @@ import "slick-carousel/slick/slick.css";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
-const HeadingInfoContainer = tw.div`flex flex-col items-center text-gray-800`;
-const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
+// const HeadingInfoContainer = tw.div`flex flex-col items-center text-gray-800`;
+// const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
 
 const TestimonialSliderContainer = tw.div`mt-24`;
 const TestimonialSlider = styled(Slider)``;
 const Testimonial = tw.div`flex! flex-col items-center md:items-stretch md:flex-row md:justify-center outline-none`;
-// const ImageContainer = styled.div`
-//   ${tw`md:mx-3 lg:mx-6 w-2/3 md:w-4/12 rounded flex items-center max-w-xs md:max-w-none`}
-//   img {
-//     ${tw`rounded`}
-//   }
-// `;
-const TextContainer = tw.div`md:mx-3 lg:mx-6 md:w-6/12 py-4 flex flex-col justify-between bg-gray-300`;
-const QuoteContainer = tw.div`relative p-6 md:p-8 lg:p-10 mt-4 md:mt-0`;
-const Quote = tw.blockquote`text-center md:text-left font-medium text-xl lg:text-2xl xl:text-3xl text-gray-700`;
-const CustomerInfo = tw.div`px-5 lg:px-10 text-center md:text-left mt-4 md:mt-0`;
-const CustomerName = tw.h5`font-bold text-lg lg:text-xl xl:text-2xl text-red-700`;
-const CustomerTitle = tw.p`font-medium text-sm`;
+const ImageContainer = styled.div`
+  ${tw`md:mx-3 lg:mx-6 w-full md:w-full rounded flex justify-center items-center max-w-xs md:max-w-none`}
+  img {
+    ${tw`rounded`}
+  }
+`;
+// const TextContainer = tw.div`md:mx-3 lg:mx-6 md:w-6/12 py-4 flex flex-col justify-between bg-gray-300`;
+// const QuoteContainer = tw.div`relative p-6 md:p-8 lg:p-10 mt-4 md:mt-0`;
+// const Quote = tw.blockquote`text-center md:text-left font-medium text-xl lg:text-2xl xl:text-3xl text-gray-700`;
+// const CustomerInfo = tw.div`px-5 lg:px-10 text-center md:text-left mt-4 md:mt-0`;
+// const CustomerName = tw.h5`font-bold text-lg lg:text-xl xl:text-2xl text-red-700`;
+// const CustomerTitle = tw.p`font-medium text-sm`;
 
-const QuotesLeft = tw(
-  QuotesLeftIcon
-)`w-8 h-8 lg:w-10 lg:h-10 text-gray-800 absolute top-0 left-0`;
-const QuotesRight = tw(
-  QuotesRightIcon
-)`w-8 h-8 lg:w-10 lg:h-10 text-gray-800 absolute bottom-0 right-0`;
+// const QuotesLeft = tw(
+//   QuotesLeftIcon
+// )`w-8 h-8 lg:w-10 lg:h-10 text-gray-800 absolute top-0 left-0`;
+// const QuotesRight = tw(
+//   QuotesRightIcon
+// )`w-8 h-8 lg:w-10 lg:h-10 text-gray-800 absolute bottom-0 right-0`;
 
 const SliderControlButtonContainer = styled.div`
   ${tw`absolute top-0 h-full flex items-end md:items-center z-20`}
@@ -81,36 +81,24 @@ export default () => {
   const testimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-      quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc.",
+        "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC",
+        "https://images.unsplash.com/photo-1495109251996-432ef0887b37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
-      quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Steven Marcetti",
-      customerTitle: "Event Manager, Brite",
+        "https://images.unsplash.com/photo-1443745029291-d5c27bc0b562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     },
   ];
   return (
     <Container>
       <Content>
-        <HeadingInfoContainer>
+        {/* <HeadingInfoContainer>
           <HeadingTitle>TESTIMONIALS</HeadingTitle>
           <HeadingDescription></HeadingDescription>
-        </HeadingInfoContainer>
+        </HeadingInfoContainer> */}
         <TestimonialSliderContainer>
           <TestimonialSlider
             nextArrow={<NextArrow />}
@@ -118,13 +106,13 @@ export default () => {
           >
             {testimonials.map((testimonial, index) => (
               <Testimonial key={index}>
-                {/* <ImageContainer>
+                <ImageContainer>
                   <img
                     src={testimonial.imageSrc}
                     alt={testimonial.customerName}
                   />
-                </ImageContainer> */}
-                <TextContainer>
+                </ImageContainer>
+                {/* <TextContainer>
                   <QuoteContainer>
                     <QuotesLeft />
                     <Quote>{testimonial.quote}</Quote>
@@ -134,7 +122,7 @@ export default () => {
                     <CustomerName>{testimonial.customerName}</CustomerName>
                     <CustomerTitle>{testimonial.customerTitle}</CustomerTitle>
                   </CustomerInfo>
-                </TextContainer>
+                </TextContainer> */}
               </Testimonial>
             ))}
           </TestimonialSlider>
