@@ -11,7 +11,7 @@ import Header, {
   NavToggle,
   DesktopNavLinks,
 } from "../headers/light.js";
-import logo from "../../images/ADS_white.png";
+// import logo from "../../images/ADS_white.png";
 
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
@@ -65,10 +65,12 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Heading>
-            <img src={logo} alt="logo" />
-            {/* Welcome to the */}
-            {/* <br /> */}
-            {/* Awesome Dance Studio */}
+            {/* <img src={logo} alt="logo" /> */}
+            Welcome
+            <br />
+            To
+            <br />
+            Awesome Dance Studio
           </Heading>
           <PrimaryAction>Show More</PrimaryAction>
         </Content>
