@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/danceandfitness_academy/static/css/main.def877c0.chunk.css",
+    "main.js": "/danceandfitness_academy/static/js/main.2da70289.chunk.js",
+    "main.js.map": "/danceandfitness_academy/static/js/main.2da70289.chunk.js.map",
+    "runtime-main.js": "/danceandfitness_academy/static/js/runtime-main.4b3993f9.js",
+    "runtime-main.js.map": "/danceandfitness_academy/static/js/runtime-main.4b3993f9.js.map",
+    "static/css/2.917fa12d.chunk.css": "/danceandfitness_academy/static/css/2.917fa12d.chunk.css",
+    "static/js/2.d8f37755.chunk.js": "/danceandfitness_academy/static/js/2.d8f37755.chunk.js",
+    "static/js/2.d8f37755.chunk.js.map": "/danceandfitness_academy/static/js/2.d8f37755.chunk.js.map",
+    "index.html": "/danceandfitness_academy/index.html",
+    "static/css/2.917fa12d.chunk.css.map": "/danceandfitness_academy/static/css/2.917fa12d.chunk.css.map",
+    "static/css/main.def877c0.chunk.css.map": "/danceandfitness_academy/static/css/main.def877c0.chunk.css.map",
+    "static/js/2.d8f37755.chunk.js.LICENSE.txt": "/danceandfitness_academy/static/js/2.d8f37755.chunk.js.LICENSE.txt",
+    "static/media/ads_text_logo.e4c4fa09.png": "/danceandfitness_academy/static/media/ads_text_logo.e4c4fa09.png",
+    "static/media/arrow-left-2-icon.9114b6a1.svg": "/danceandfitness_academy/static/media/arrow-left-2-icon.9114b6a1.svg",
+    "static/media/arrow-left-3-icon.d48c6bae.svg": "/danceandfitness_academy/static/media/arrow-left-3-icon.d48c6bae.svg",
+    "static/media/arrow-right-2-icon.dd6a8f82.svg": "/danceandfitness_academy/static/media/arrow-right-2-icon.dd6a8f82.svg",
+    "static/media/arrow-right-3-icon.d415f77e.svg": "/danceandfitness_academy/static/media/arrow-right-3-icon.d415f77e.svg",
+    "static/media/dot-pattern.ee6f4f0e.svg": "/danceandfitness_academy/static/media/dot-pattern.ee6f4f0e.svg",
+    "static/media/email-illustration-red.3eda7758.svg": "/danceandfitness_academy/static/media/email-illustration-red.3eda7758.svg",
+    "static/media/facebook-icon.8f6512c4.svg": "/danceandfitness_academy/static/media/facebook-icon.8f6512c4.svg",
+    "static/media/logo_ads_notext.72d6d6d0.png": "/danceandfitness_academy/static/media/logo_ads_notext.72d6d6d0.png",
+    "static/media/menu.svg": "/danceandfitness_academy/static/media/menu.644fa295.svg",
+    "static/media/quotes-l.075e0fe3.svg": "/danceandfitness_academy/static/media/quotes-l.075e0fe3.svg",
+    "static/media/svg-decorator-blob-3.de3cee31.svg": "/danceandfitness_academy/static/media/svg-decorator-blob-3.de3cee31.svg",
+    "static/media/svg-decorator-blob-4.8e136b6b.svg": "/danceandfitness_academy/static/media/svg-decorator-blob-4.8e136b6b.svg",
+    "static/media/svg-decorator-blob-5.3175ec40.svg": "/danceandfitness_academy/static/media/svg-decorator-blob-5.3175ec40.svg",
+    "static/media/twitter-icon.828ecd04.svg": "/danceandfitness_academy/static/media/twitter-icon.828ecd04.svg",
+    "static/media/x.svg": "/danceandfitness_academy/static/media/x.6c9a4ba7.svg",
+    "static/media/youtube-icon.10cce4d9.svg": "/danceandfitness_academy/static/media/youtube-icon.10cce4d9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b3993f9.js",
+    "static/css/2.917fa12d.chunk.css",
+    "static/js/2.d8f37755.chunk.js",
+    "static/css/main.def877c0.chunk.css",
+    "static/js/main.2da70289.chunk.js"
+  ]
+}
